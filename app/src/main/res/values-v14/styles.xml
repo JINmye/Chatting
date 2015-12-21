@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn_while_large">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/holo_blue_bright</item>
+        <item name="android:textSize">@dimen/pad_18sp</item>
+    </style>
+</resources>

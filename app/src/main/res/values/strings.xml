@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">chatting</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="send_message">메시지를 입력해주세요</string>
+    <string name="username">아이디</string>
+    <string name="passwoed">비밀번호</string>
+    <string name="register">등록</string>
+    <string name="login">로그인</string>
+    <string name="email">Email</string>
+    <string name="alert_wait">잠시만 기다려주세요...</string>
+    <string name="alert_loading">Loading...</string>
+    <string name="not_found_user">No found user for chat</string>
+    <string name="ID">dyNuNMwXuRttTne7Rch705uzbLp0d4bTEo9D68Tp</string>
+    <string name="ClientID">vzqPHGStqIsvpdNaRGt4bd7mKzlalBzdPiooZ6Rg</string>
+
+</resources>

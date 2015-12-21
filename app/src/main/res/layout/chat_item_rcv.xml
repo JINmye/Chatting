@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    android:weightSum="1">
+    <!--@dimen/mar_10dp-->
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="154dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/bubble_b"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/pad_5dp"
+        android:paddingLeft="@dimen/pad_chat_item"
+        android:paddingTop="@dimen/pad_5dp"
+        android:layout_weight="8.10">
+        <TextView
+            android:id="@+id/tv1"
+            android:text="TExt View"
+            android:textSize="@dimen/tv_13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:text="View"
+            android:textSize="@dimen/tv_14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv3"
+        android:text="Text"
+        android:textSize="@dimen/tv_14sp"
+        android:layout_marginTop="@dimen/mar_5dp"
+        android:layout_marginLeft="@dimen/mar_20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

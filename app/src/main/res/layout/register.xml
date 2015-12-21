@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/mar_20dp"
+        android:layout_marginTop="@dimen/mar_20dp" />
+
+    <EditText
+        android:id="@+id/user"
+        style="@style/edittext_bg_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/user_name"
+        android:hint="@string/username"
+        android:inputType="text"
+        >
+
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/edittext_bg_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/pad_5dp"
+        android:drawableLeft="@drawable/user_name"
+        android:hint="@string/email"
+
+        />
+
+    <EditText
+        android:id="@+id/pwd"
+        style="@style/edittext_bg_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="@dimen/mar_20dp"
+        android:layout_marginTop="@dimen/mar_5dp"
+        android:drawableLeft="@drawable/ic_pass"
+        android:hint="@string/passwoed"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/btn_while_large"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+
+        />
+
+</LinearLayout>
